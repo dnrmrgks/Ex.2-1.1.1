@@ -21,6 +21,7 @@
 		00FCF310187E331C00EFB432 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCF2F2187E331C00EFB432 /* UIKit.framework */; };
 		00FCF318187E331C00EFB432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FCF316187E331C00EFB432 /* InfoPlist.strings */; };
 		00FCF31A187E331C00EFB432 /* Ex_2_1_1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FCF319187E331C00EFB432 /* Ex_2_1_1_1Tests.m */; };
+		00FCF328187E376D00EFB432 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FCF327187E376D00EFB432 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00FCF315187E331C00EFB432 /* Ex.2-1.1.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex.2-1.1.1Tests-Info.plist"; sourceTree = "<group>"; };
 		00FCF317187E331C00EFB432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FCF319187E331C00EFB432 /* Ex_2_1_1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex_2_1_1_1Tests.m; sourceTree = "<group>"; };
+		00FCF326187E376D00EFB432 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		00FCF327187E376D00EFB432 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00FCF304187E331C00EFB432 /* ViewController.m */,
 				00FCF306187E331C00EFB432 /* Images.xcassets */,
 				00FCF2F5187E331C00EFB432 /* Supporting Files */,
+				00FCF326187E376D00EFB432 /* Model.h */,
+				00FCF327187E376D00EFB432 /* Model.m */,
 			);
 			path = "Ex.2-1.1.1";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				00FCF305187E331C00EFB432 /* ViewController.m in Sources */,
 				00FCF2FF187E331C00EFB432 /* AppDelegate.m in Sources */,
 				00FCF2FB187E331C00EFB432 /* main.m in Sources */,
+				00FCF328187E376D00EFB432 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
